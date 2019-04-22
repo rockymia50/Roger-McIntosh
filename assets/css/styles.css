@@ -140,18 +140,16 @@ table {
 
 html,
 body,
-header,
 .view {
     height: 100%;
     width: 100%;
-    text-align: justify;
-    /* Added for IE */
+    text-align: center;
     position: relative;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-    /* For IE */
+
     height: 100%;
 }
 
@@ -211,26 +209,25 @@ body {
 /* Header */
 
 header {
-    background-image: url("../images/RockyBG.png");
+    background-image: url("../images/outsidebox.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 5%;
-    border-bottom-color: #ff00de;
-    border-width: 3px;
+    border-bottom-color: grey;
+    z-index: auto;
 }
 
 .hero h1 {
     letter-spacing: 5px;
     margin-bottom: 20px;
-    margin-left: 27px;
+   
 }
 
 .hero h2 {
     font-size: 1.4rem;
     letter-spacing: 2px;
     margin-bottom: 20px;
-    margin-left: 90px;
+    
 }
 
 h2 span {
@@ -270,7 +267,7 @@ Social Icons .icons {
     color: whitesmoke;
     font-size: 2em;
     transition: color 0.2s linear;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 25px;
 }
 

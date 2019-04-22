@@ -31,7 +31,7 @@
 
 <body>
 
-    <header data-anijs="if: scroll, do: flipInY animated" id="headerImage">
+    <header id="headerImage">
 
         <!-- NavBar -->
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
@@ -54,7 +54,7 @@
                 <div id="home">
                     <div class="description text-xs-center">
                         <h1 class="h1-responsive">Roger McIntosh</h1>
-                        <h2>Full Stack Web Developer
+                        <h2>Full Stack Web Developer </h2>
 
                             <div class="icons">
                                 <ul>
@@ -64,7 +64,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a title="Resume" href="./assets/images/Roger (Rocky) McIntosh2- Resume.docx" target="_blank">
+                                        <a title="Resume" href="assets/images/Roger McIntosh - Resume.docx" target="_blank">
                                             <i class="fa 
                                         fa-file-text-o" aria-hidden="true"></i>
                                         </a>
@@ -87,13 +87,7 @@
         </div>
     </header>
 
-
-    <div data-anijs="if: scroll, on: window, do: swing animated" class="parallax">
-
-    </div>
-
-
-
+    <div class="parallax"></div>
 
     <!-- Projects -->
 
@@ -174,7 +168,7 @@
                         <h5 class="card-title">
                             <strong>Neighborhood Amigos</strong>
                         </h5>
-                        
+
                         <p class="card-text">Finding a friend has never been easier</p>
                         <a href="https://neighborhood-amigos.herokuapp.com/" class="btn btn-primary">Demo</a>
                     </div>
@@ -184,16 +178,16 @@
     </div>
 
     <div class="container-fluid">
-        <div class="parallaxOne">
+    <div data-anijs="if: scroll, do: flipInY animated" class="parallaxOne">
                 <img class="labtop img-fluid" src="./assets/images/labtop.png" alt="labtop">
             <div class="col-xs-12 col-sm-6 col-md-8">
                 <div class="present">
                     <p>
-                        Now·A·Days /ˈnouəˌdāz/
-                        <br> adverb
-                        <br> adverb: nowadays
-                        <br> at the present time, in contrast with the past.
-                        <br> "This is the only equipment that I use nowadays."
+                        Coding
+                        <br> noun
+                        <br> the process of assigning a code to something
+                        <br> for the purposes of classification or identification.
+                        <br> "My coding rocks" <i class="fa fa-rocket" aria-hidden="true"></i>
                     </p>
                     <div class="circle1"></div>
                     <div class="circle2"></div>
@@ -319,6 +313,10 @@
     </footer>
     <!-- /. Footer -->
 
+    <script src="https://anijs.github.io/lib/anijs/anijs-min.js"></script> 
+  
+  <!-- Include to use $addClass, $toggleClass or $removeClass -->
+  <script src="https://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
